@@ -1,0 +1,92 @@
+/*web principal movil*/
+@font-face{
+    font-family: "campus";
+src: url(../letras/CAMPUS\ PERSONAL\ USE.ttf)
+}
+@font-face{
+    font-family:"American Sporty";
+    src:url(../letras/KAGE_DEMO_FONT-Black.otf)
+}
+.pagina1{
+    width: 100%;
+    margin: auto;
+    margin-right: 0px;
+    text-align: center;
+}
+.ttindex{
+    font-size: 30px;
+}
+.principal{
+    height: 300px;
+}
+.contenedor1{
+    float: left;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.Q1{
+    font-size:40px;
+}
+.contenido{
+    font-size: smaller;
+}
+.david{
+    width: 200px;
+}
+
+/*web 2 movil*/
+
+.pagina2{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ttindex{
+    width: 100%;
+    font-size: 40px;
+}
+.atras{
+    
+}
+.lform{
+    width: 100%;
+    font-size: 40px;
+}
+form{
+    width: 100%;
+    font-size: 20px;
+}
+input{
+    width: 30%;
+    display: inline-block;
+    
+}
+textarea{
+    width: 90%;
+    height: auto;
+}
+.valoracion{
+    width: 100%;
+}
+
+/*web 3 movil*/
+.pagina1{
+    width: 100%;
+    margin: auto;
+    margin-right: 10px;
+}
+.Q1{
+    font-size: 40px;
+}
+tr, td {
+    border-top: none;
+    border-bottom: 50px;
+    border-right:1px solid black;
+    border-left:1px solid black;
+    padding: 8px;
+    font-size:20px;
+}
+.contenedor2{
+    font-size: 20px;
+}

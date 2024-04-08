@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Nutrición deportiva" content="formulario">
+        <link rel="stylesheet" href="../css/escritorio_web1.css">
+        <link rel="stylesheet" href="../css/tablet_web1.css" media="(min-width:768px)">
+        <link rel="stylesheet" href="../css/movil_web1.css" media="(max-width:767px)"> 
+        
+    </head>
+    <body class="pagina2">
+        <header>
+            <h1 class="ttindex">CUESTIONARIO INICIAL</h1>
+        </header>
+        <main>
+            <form>
+              <legend class="lform">INFORMACIÓN GENERAL</legend>
+                    <form action="servicio.php" method="GET">
+                <div>
+                    <label for="nombre">Nombre Completo :</label>
+                    <input type="text" id="nombre" name="nombre" maxlenght="30" placeholder="Nombre y apellidos">
+                </div>
+                <div>
+                    <label for="fecha"> Fecha de Nacimiento : </label>
+                    <input type="text" id="fecha" name="fecha" maxlenght="24" placeholder="Fecha de Nacimiento">
+                </div>
+                <div>
+                    <label for="estatura"> Estatura : </label>
+                    <input type="text" id="estatura" name="estatura" maxlenght="4" placeholder="Estatura">
+                </div>
+                <div>
+                    <label for="pesoactual"> Peso Actual : </label>
+                    <input type="text" id="peso actual" name="peso actual" maxlenght="24" placeholder="Introduce tu peso">
+                </div>
+                <div>
+                    <label for="telefono"> Teléfono : </label>
+                    <input type="text" id="telefono" name="telefono" maxlenght="14" placeholder="Teléfono">
+                </div>
+                <div class="email">
+                    <label for="email"> Email : </label>
+                    <input type="text" id="email" name="email" maxlenght="50" placeholder="Escribe tu email">
+                </div>
+            </form>
+            <form>
+                <legend class="lform">INFORMACIÓN NUTRICIONAL</legend>
+
+                    <label for="valoracion">¿Realizas algún tipo de dieta actualmente?</label>
+                <div class="valoracion">
+                    <input type="radio" name="dieta" class="imput" value="1"><label for="d1">SI</label>
+                    <input type="radio" name="dieta" class="imput"  value="2"><label for="d2">NO</label>
+                </div>
+            
+                    <label for="comidas">¿Cuántas comidas haces actualmente?</label>
+                <div class="valoracion">
+                    <input type="radio" name="comida" id="c1" value="1"><label for="c1">1</label>
+                    <input type="radio" name="comida" id="c2" value="2"><label for="c2">2</label>
+                    <input type="radio" name="comida" id="c3" value="3"><label for="c3">3</label>
+                    <input type="radio" name="comida" id="c4" value="4"><label for="c4">4</label>
+                    <input type="radio" name="comida" id="c5" value="5"><label for="c5">5</label>
+                    <input type="radio" name="comida" id="c6" value="6"><label for="c6">6</label>
+                    <input type="radio" name="comida" id="NO" value="NO"><label for="NO">DEPENDE DEL DIA</label>
+                </div>
+
+                    <label for="alergia"> ¿Tienes algún tipo de alergia o intolerancia? : </label>
+                <div class="valoracion">
+                    <input type="radio" name="alergia" id="a1" value="1"><label for="a1">SI</label>
+                    <input type="radio" name="alergia" id="a2" value="2"><label for="a2">NO</label>
+                </div>
+                  
+                    <label for="tolerancia">¿Hay algún alimento que no te guste comer o no toleres bien? Si es así dime cuáles</label>
+                <div class="relleno">    
+                    <textarea rows="15" cols="100" name="texto" placeholder="no me gusta, no tolero..."></textarea>
+                </div>
+                
+                    <label for="suplementacion">¿Tomas actualmente suplementación? Indica que suplementos sueles tomar :</label>
+                <div class="relleno">    
+                    <textarea rows="15" cols="100" name="texto" placeholder="detalla la suplementación actual"></textarea>  
+                </div>
+            </form>
+        </main>
+        <footer>
+                <a href="../PAG_SECOND/web3.html"><button type="submit" value="nuestras tarifas" class="button">NUESTRAS TARIFAS</button></a>
+        </footer>
+    </body>
+    </html>
